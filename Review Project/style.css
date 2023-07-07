@@ -1,0 +1,90 @@
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    background-color: beige !important;
+  }
+
+  main {
+    width: 45rem;
+    height: 30rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 100%;   
+  }
+
+  .img-conainer {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+    
+    .name, .carrier {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+  }
+
+  .carrier{
+    color: rgb(14, 243, 220);
+  }
+
+  .description {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .buttons {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    .butt {
+        border: none;
+        background-color: transparent;
+        color: rgb(14, 243, 220);
+    }
+  }
+
+  .random {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  }
+
+ 
+
+  .underline {
+    border-bottom: 3px solid rgb(14, 243, 220);
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .my-pic {
+    width: 150px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 5px -3px 0px 3px rgb(14, 243, 220);
+  }
+
