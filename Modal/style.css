@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color:rgb(219, 115, 160) !important;
+}
+
+.wrapper {
+    margin:0 auto !important;
+    padding: 15%;
+}
