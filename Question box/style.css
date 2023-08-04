@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body section.questions-box .qusetion-answer {
+    display: none !important ;
+}
+
+body section.questions-box .qusetion-answer.show-answer {
+    display: block !important;
+}
+
+.fa-minus-square {
+    display: none !important;
+}
